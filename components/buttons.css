@@ -228,6 +228,10 @@
   position: relative;
   color: transparent !important;
 }
+.ease-btn-outline.ease-btn-loading,
+.ease-btn-pill.ease-btn-loading {
+  --ease-btn-loading-color: currentColor;
+}
 
 .ease-btn-loading > * {
   visibility: hidden;
